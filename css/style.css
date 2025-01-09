@@ -19,9 +19,51 @@ body.page1{
     text-align: center;
   
 }
+
 .logo{
     max-width: 750px;  
     height: 450px; 
     margin-top: 20px;
 
+}
+div.img{
+    
+    max-height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.menu{
+    text-align: center;
+}
+.hover-text{
+    font-size: 150%;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+    font-weight: 1000;
+     transition: color 0.3s ease
+}
+.hover-text:hover {
+    color: purple /* Color when hovered */
+  }
+.desclist{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: gray;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.container{
+    display: flexbox;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
