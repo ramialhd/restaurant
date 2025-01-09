@@ -8,3 +8,9 @@ body{
     background-position: center;
     background-repeat:  no-repeat;
 }
+.content{
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+    padding: 10px;
+}
