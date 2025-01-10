@@ -100,7 +100,9 @@ body.page1{
     background-color: rgb(255, 247, 238);
   }
   body.page3{
-    background-image: url('../images/drink.jpg');
+    background-image: url('../images/wine2.jpg');
+    background-size: cover; 
+    background-position: center; 
   }
   .container1{
     display: flex;
@@ -111,12 +113,36 @@ body.page1{
     margin: 30px;
   }
 .drinks{
-    font-size: x-large;
-    font-family: 'Sofia';
+    font-size: 30px;
+    font-family: Christmas Twinkle-Personal;
     font-weight: 900;
-    color: yellow;
+    color: #fdf099;
     font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hotdrinks{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 600px;
+  padding: 15px;
+font-size: 30px;
+}
+
+  .softdrink {
+    margin-top: 200px;
+  }
   
+ 
+  
+
+.energydrink{
+  text-align: right;
+  margin-right: 300px;
+  padding: 5px;
+  background-color: black;
+  display: inline;
+  padding-right: 150px;
 }
