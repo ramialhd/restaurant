@@ -24,48 +24,6 @@ body.page1{
     max-width: 750px;  
     height: 450px; 
     margin-top: 20px;
-
-}
-div.img{
-    
-    max-height: 100%;
-    width: 200%;
-    
-}
-
-
-
-.menu{
-    text-align: center;
-}
-.hover-text{
-    font-size: 200%;
-    font-style: oblique;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f9e563;
-    font-weight: 1000;
-     transition: color 0.3s ease
-}
-.hover-text:hover {
-    color: rgb(195, 25, 53) 
-  }
-.desclist{
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900;
-    color: rgb(99, 98, 98);
-    font-style: italic;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(249, 237, 221);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-.container{
-    display: flexbox;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 .navbar .dropdown-menu {
     background-color: #23231e; 
@@ -91,4 +49,53 @@ div.img{
   .navbar .dropdown-item:hover {
     background-color: #f9e563; 
     color: #23231e; 
+  }
+
+
+
+.menu{
+    text-align: center;
+    
+}
+.hover-text{
+    font-size: 200%;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(195, 25, 53);
+    font-weight: 1000;
+     transition: color 0.3s ease
+}
+.hover-text:hover {
+    color: #f9e563;
+  }
+.desclist{
+    
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(99, 98, 98);
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 237, 214);
+    background-repeat: no-repeat;
+    background-size: auto;
+    list-style-type: none;
+    transition: background-color 0.3s ease, color 0.3s ease ;
+}
+.desclist:hover{
+    background-color: #fef7cd;
+    color:rgb(99, 98, 98); 
+   
+    
+}
+.container{
+    display: flexbox;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+  body.page2{
+    background-color: rgb(255, 247, 238);
   }
