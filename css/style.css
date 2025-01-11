@@ -102,7 +102,9 @@ body.page1{
   body.page3{
     background-image: url('../images/wine2.jpg');
     background-size: cover; 
+    background-repeat: no-repeat;
     background-position: center; 
+    background-attachment: fixed;
   }
   .container1{
     display: flex;
