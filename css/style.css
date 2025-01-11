@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    margin: 0px;
+ 
   }
 body.page1{
     background-image: url('../images/background.jpg');
@@ -94,57 +94,62 @@ body.page1{
     gap: 20px;
     justify-content: space-between;
     align-items: flex-start;
+
 }
 
   body.page2{
     background-color: rgb(255, 247, 238);
   }
   body.page3{
-    background-image: url('../images/wine2.jpg');
+background-image: url('../images/wine2.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
   }
   .container1{
-    display: flex;
-    flex-direction: column;
+    
     font-style: italic;
     text-align: center;
     padding: 30px;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
   }
 .drinks{
+  display: flex;
+  flex-direction: column;
     font-size: 30px;
     font-family: Christmas Twinkle-Personal;
     font-weight: 900;
-    color: #fdf099;
+    color:goldenrod;
     font-style: italic;
-    background-repeat: no-repeat;
-    background-size: cover;
+align-items: center;
+
 }
 
 .hotdrinks{
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  background-attachment: local;
   width: 600px;
-  padding: 15px;
 font-size: 30px;
 }
 
   .softdrink {
-    margin-top: 200px;
+    width: 500px;
   }
-  
- 
-  
 
 .energydrink{
-  text-align: right;
-  margin-right: 300px;
-  padding: 5px;
-  background-color: black;
-  display: inline;
-  padding-right: 150px;
+
+width:500px;
+  
 }
+.drink1{
+  
+}
+
+
+  
+
+
