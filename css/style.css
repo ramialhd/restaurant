@@ -3,65 +3,41 @@ html, body {
  
   }
 body.page1{
-    background-image: url('../images/background.jpg');
+   background-color:#F8F3D4 ;
     background-size: cover;
     background-position: center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
 }
-h3{
-  letter-spacing: 3px;
- 
-  
+
+.header{
+  display: flex;
+flex-direction: row;
+padding: 10px 20px ;
+position:sticky ;
 }
-
-
-.content{
-    max-width: 700px;
-    min-height: 100vh;
-    margin: auto;
-    background-color: #23231e;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-  
-}
-
-.logo{
-    max-width: 750px;  
-    height: 450px; 
-    margin-top: 20px;
-    animation: slide-up 3s ease-in-out;
-}
-
 
 .navbar-brand:hover{
-  color:rgb(212, 212, 89);
+  color:#5F806E;
 }
 .nav-link:hover{
-  color:rgb(212, 212, 89);}
+  color:#5F806E}
+
+  .navbar-nav{
+    display: flex;
+  flex-direction: row;
+  margin-right: 350px;
+  margin-top: 30px;
+}
+
+
+
 .navbar .dropdown-menu {
     background-color: #23231e; 
     border: none; 
   
   }
-  
-  .navbar .dropdown-menu.show {
-   
-  }
-  
-  .navbar .dropdown-item {
-    color: #f9e563; 
-    padding: 10px 20px; 
-    
-  }
-  
-  .navbar .dropdown-item:hover {
-    background-color: #f9e563; 
-    color: #23231e; 
-  }
-
-
+ 
 
 .menu{
     text-align: center;
@@ -110,55 +86,6 @@ h3{
   body.page2{
     background-color: rgb(255, 247, 238);
   }
-  body.page3{
-background-image: url('../images/wine2.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed;
-  }
-  .container1{
-    
-    font-style: italic;
-    text-align: center;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    
-    
-  }
-.drinks{
-  display: flex;
-  flex-direction: column;
-    font-size: 30px;
-    font-family: Christmas Twinkle-Personal;
-    font-weight: 900;
-    color:goldenrod;
-    font-style: italic;
-align-items: center;
-
-}
-
-.hotdrinks{
-  background-attachment: local;
-  width: 600px;
-font-size: 30px;
-}
-
-  .softdrink {
-    width: 500px;
-  }
-
-.energydrink{
-
-width:500px;
-  
-}
-.drink1{
-  
-}
-
 
   
 
