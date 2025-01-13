@@ -32,12 +32,26 @@ position:sticky ;
        font-style: italic;
        font-size: 38px;
        margin-left: 10%;
+       text-align: center;
        margin-top: 1%;
+       color: black;
+       text-decoration: none;
+      transition: color 0.3s ease, text-shadow 0.2s ease;
+      }
+      .begin:hover{
+        color: #5F806E; 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
       }
       .second{
         display: flex;
         flex-direction: row;
-        
+        color: black;
+        text-decoration: none;
+       transition: color 0.3s ease, text-shadow 0.2s ease;
+      }
+      .second:hover{
+        color: #5F806E; 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
       }
 
 .navbar-brand:hover{
