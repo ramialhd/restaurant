@@ -16,6 +16,29 @@ flex-direction: row;
 padding: 10px 20px ;
 position:sticky ;
 }
+.outside{
+  display: block;
+  align-items: center;
+}
+.wrap1{
+       display: flex;
+       flex-direction: row;
+}
+#fonti{
+  font-size: 40px;
+}
+.begin{
+       font-family: Dancing Script;
+       font-style: italic;
+       font-size: 38px;
+       margin-left: 10%;
+       margin-top: 1%;
+      }
+      .second{
+        display: flex;
+        flex-direction: row;
+        
+      }
 
 .navbar-brand:hover{
   color:#5F806E;
@@ -55,7 +78,6 @@ position:sticky ;
     color: #f9e563;
   }
 .desclist{
-    
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
