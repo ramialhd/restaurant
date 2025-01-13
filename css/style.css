@@ -92,14 +92,11 @@ position:sticky ;
     color: #f9e563;
   }
 .desclist{
-<<<<<<< HEAD
     letter-spacing: 2px;
     padding: 10px;
     margin: 5px;
     font-size: large;
-=======
     font-size: medium;
->>>>>>> bf285fd4ea20a6c080448c566c908622801ef677
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     color: #5F806E;
