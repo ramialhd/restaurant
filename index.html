@@ -44,16 +44,37 @@
 <p><h2 id="fonti"><b>"Welcome to <strong>mamma mia...</strong></h2>
 where our journey began<br> with a dream<br>of sharing the true taste<br> of Italy..."</b></p>
 </div>
-<img src="images/pasta.jpg" style="width: 500px; margin-left: 300px; margin-top: 80px;">
+<img  id="pasta"   src="images/pasta.jpg" style="width: 450px; margin-left: 300px; margin-top: 80px;">
 </div>
 <div class="second">
-  <img src="images/chef3.jpg" style="width: 400px;margin-left: 5%;">
+  <img src="images/chef3.jpg" style="width: 400px;margin-left: 5%; ">
 <p style="font-size: 38px; font-family:  Dancing Script;font-style: italic;text-align: center;margin-left: 20%; margin-top: 10%;"><b>"Guided by tradition<br>and creativity,<br> our talented chefs transform simple <br>ingredients into unforgettable <br>memories."</b></p>
 <hr>
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script
+    const pastaImage = document.getElementById("pasta");
+
+    const hoverImageSrc = "images/laradrink.jpeg";
+    const originalImageSrc = "images/pasta.jpg" ;
+
+    pastaImage.addEventListener("mouseover", () => {
+      pastaImage.style.opacity = 0; 
+      setTimeout(() => {
+        pastaImage.src = hoverImageSrc; 
+        pastaImage.style.opacity = 1;
+      }, 250);
+    });
+
+    pastaImage.addEventListener("mouseout", () => {
+      pastaImage.style.opacity = 0; 
+      setTimeout(() => {
+        pastaImage.src = originalImageSrc; 
+        pastaImage.style.opacity = 1; 
+      }, 250);
+    });
+
 </script>
 </body>
 </html>

@@ -163,7 +163,8 @@ position:sticky ;
   body.page2{
     background-color: #F8F3D4 ;
   }
-
+#pasta{ transition: opacity 0.5s ease-in-out;
+}
   
 
 
