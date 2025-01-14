@@ -137,10 +137,10 @@ margin: 5px;
 }
 .container{
   display: flex;
-   margin-top: 10px;
-    justify-content: space-between;
-    align-items: center;
-
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
     
   
 
@@ -149,23 +149,24 @@ margin: 5px;
 .container2{
   margin-top:100px;
   display: flex;
-padding-right: 200px;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 50px;
+  padding-right: 200px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  text-align: center;
   
 
 }
-.containe3{
+.container3{
   margin-top:100px;
   display: flex;
-padding-right: 200px;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 50px;}
+  padding-right: 200px;
+  align-items: center;
+  margin-right: 50px;
+  text-align: center;}
 
   body.page2{
-    background-color: rgb(255, 247, 238);
+    background-color: #F8F3D4 ;
   }
 
   
