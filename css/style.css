@@ -111,7 +111,7 @@ position:sticky ;
 
 .desclist:hover{
     background-color: #fef7cd;
-    color:rgb(99, 98, 98); 
+    color:rgb(99, 98, 98);
    
     
 }
@@ -143,13 +143,22 @@ position:sticky ;
 
 }
 .container3{
-  margin-top:100px;
+  margin-top:50px;
   display: flex;
   padding-right: 150px;
-  
   align-items: center;
   margin-right: 30px;
   text-align: center;}
+
+  .container4{
+    margin-top:70px;
+    display: flex;
+    padding-right: 150px;
+    
+    align-items: center;
+    margin-right: 30px;
+    text-align: center;}
+  
 
   body.page2{
     background-color: #F8F3D4 ;
