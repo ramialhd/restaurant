@@ -13,7 +13,7 @@
     <nav>
   <ul class="navbar-nav">
 <li class="nav-item">
-      <a class="nav-link" href="index.html"><p style="font-size: 30px;">HOME &nbsp; &nbsp;</p></a>
+      <a class="nav-link" href="index.html"><p style="font-size: 30px;color: #5F806E;">HOME &nbsp; &nbsp;</p></a>
 </li>
         <li class="nav-item">
           <a class="nav-link" href="menu.html"> <p style="font-size: 30px;"> MENU &nbsp; &nbsp;</p></a> </li>
@@ -32,8 +32,6 @@
 
 <body class="page1">
     
-      
-  
 <div class="outside">
   <img src="images/mamma-mia.jpg" style=" width: 80% ; margin-left: 150px; height: 600px;">
 </div>
@@ -44,7 +42,7 @@
 <p><h2 id="fonti"><b>"Welcome to <strong>mamma mia...</strong></h2>
 where our journey began<br> with a dream<br>of sharing the true taste<br> of Italy..."</b></p>
 </div>
-<img  id="pasta"   src="images/pasta.jpg" style="width: 450px; margin-left: 300px; margin-top: 80px;">
+<img  id="pasta"   src="images/pasta.jpg" style="width: 500px; margin-left: 300px;  margin-top: 80px;">
 </div>
 <div class="second">
   <img src="images/chef3.jpg" style="width: 400px;margin-left: 5%; ">
@@ -52,11 +50,29 @@ where our journey began<br> with a dream<br>of sharing the true taste<br> of Ita
 <hr>
 
 </div>
+<div class="bf">
+<p  class="begin" style="padding-right: 10%;" >
+  Behind every dish , there's a story. Go to the
+  <button onclick="window.location.href='menu.html'" style="background-color:#e2dcb3; color: #5F806E; border: dashed; padding: 5px 10px; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;">
+      menu
+  </button>
+ and let us take you on a flavorful journey!
+</p>
+<img src="images/cozyim.jpg" style="width: 510px; height: 10%;">
+<p  class="begin" style="margin-right: 10%;">
+  Grab a  
+  <button onclick="window.location.href='reservation.html'" style="background-color:#e2dcb3; color: #5F806E; border: dashed; padding: 5px 10px; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;">
+     <strong> seat</strong>
+  </button>
+at Mamma Mia today!
+</p>
+
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script
+      <script>
     const pastaImage = document.getElementById("pasta");
 
-    const hoverImageSrc = "images/laradrink.jpeg";
+    const hoverImageSrc = "images/laradrink2.jpeg";
     const originalImageSrc = "images/pasta.jpg" ;
 
     pastaImage.addEventListener("mouseover", () => {
@@ -77,4 +93,21 @@ where our journey began<br> with a dream<br>of sharing the true taste<br> of Ita
 
 </script>
 </body>
+
+<footer style="background-color: #5F806E; color: #F8F3D4; padding: 20px; text-align: center; font-family: Arial, sans-serif; margin-top: 2%;">
+  <div>
+    <h4 style="font-family: Dancing Script; font-size: 40px; padding-bottom: 1%;">Mamma Mia Restaurant</h4>
+    <p> Address: 123 Italian Avenue, Food City, FL 12345</p>
+    <p>Phone: (123) 456-7890 | Email: info@mammamia.com</p>
+    <p>Operating Hours: Mon-Fri 12 AM - 1 AM, Sat-Sun 9 AM - 3 AM</p>
+  </div>
+  <hr style="border-top: 1px solid #F8F3D4; margin: 20px 0;">
+  <div>
+    <p>Follow us:</p>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Facebook</a>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Instagram</a>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Twitter</a>
+  </div>
+  <p style="margin-top: 20px;">Copyright © 1990 Mamma Mia. All rights reserved.</p>
+</footer>
 </html>

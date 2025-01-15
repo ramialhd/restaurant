@@ -38,6 +38,12 @@ position:sticky ;
        text-decoration: none;
       transition: color 0.3s ease, text-shadow 0.2s ease;
       }
+      .bf{
+        display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 10%;
+      }
       .begin:hover{
         color: #5F806E; 
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
@@ -184,5 +190,8 @@ letter-spacing: 2px;
 #pasta{ transition: opacity 0.5s ease-in-out;
 }
   
-
+body.page3{
+  
+    background-color: #F8F3D4;
+}
 
