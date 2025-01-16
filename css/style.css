@@ -191,14 +191,28 @@ letter-spacing: 2px;
 }
   
 body.page3{
-  
     background-color: #F8F3D4;
 }
 
 body.page4{
   background-color: #F8F3D4;
+}
+
+.form{
+
+  font-size: 30px;
+  font-family: Dancing Script;
+  color: #5F806E;
+  width: 30%;
+  
+
 
 }
-.form{
-  margin-left: 20%;
+.groupform{display: flex;            /* Align label and input in a row */
+  align-items: center;      /* Vertically center-align elements */
+  margin-bottom: 15px;
+  margin-top: 2%;
+  margin-left: 600px;
+  border: #5F806E; border: 2px solid #5F806E;
+  border-radius: 10px;  
 }

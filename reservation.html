@@ -37,24 +37,29 @@
         <img src="images/inside.jpg" style=" width: 80% ; margin-left: 150px; height: 600px;">
     </div>
     <form method="post">
-        <h1 style="margin-left: 35%; margin-top: 3%; font-family: Dancing Script;text-decoration: ;">Book your table now and enjoy!</h1>
+        <h1 style="margin-left: 15%; margin-top: 3%; font-family: Dancing Script;font-size: 70px;padding-bottom: 5%; color:#5F806E;">Book your table now and enjoy!</h1>
         <div class="form">
-       <label for="name ">First name:</label>
+          <div class="groupform">
+       <label for="name ">First name: &nbsp;</label>
        <input type="text" id="name" name="name" required>
-       <br><br>
-       
-       <label for="name ">Last name:</label>
+       </div>
+       <div class="groupform">
+       <label for="name ">Last name:&nbsp;</label>
        <input type="text" id="name" name="name" required>
-       <br><br>
-
-       <label for="date">Date:</label>
+       </div>
+       <div class="groupform">
+       <label for="date">Date:&nbsp;</label>
        <input type="date" id="date" name="date" required>
-       <br><br>
-
-       <label for="time">Time:</label>
+          </div>
+       <div class="groupform">
+       <label for="time">Time:&nbsp;</label>
        <input type="time" id="time" name="time" required>
-       <br><br>
-       <button   style="background-color:#e2dcb3; color: #5F806E; border: dashed; padding: 5px 10px; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;" type="submit">Reserve Now</button>
+       </div>
+       <div class="groupform">
+       <label for="name " >Nb of guests:</label>
+       <input type="text" id="number" name="number" required>
+       </div>
+       <button style="background-color:#e2dcb3; color: #5F806E; border: dashed; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;  margin-top: 10%; margin-left: 600px;" type="submit">Reserve Now</button>
     </form>
   </div>
     
