@@ -204,15 +204,16 @@ body.page4{
   font-family: Dancing Script;
   color: #5F806E;
   width: 30%;
+  border: #5F806E; border: 2px dashed #5F806E ;
+  margin-left: 500px;
+  border-radius: 10px; 
   
 
-
 }
-.groupform{display: flex;            /* Align label and input in a row */
-  align-items: center;      /* Vertically center-align elements */
+.groupform{
+  display: flex;            
+  align-items: center;      
   margin-bottom: 15px;
   margin-top: 2%;
-  margin-left: 600px;
-  border: #5F806E; border: 2px solid #5F806E;
-  border-radius: 10px;  
+ 
 }
