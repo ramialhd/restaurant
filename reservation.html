@@ -36,8 +36,8 @@
     <div class="outside">
         <img src="images/inside.jpg" style=" width: 80% ; margin-left: 150px; height: 600px;">
     </div>
-    <form method="post">
-        <h1 style="margin-left: 15%; margin-top: 3%; font-family: Dancing Script;font-size: 70px;padding-bottom: 5%; color:#5F806E;">Book your table now and enjoy!</h1>
+    <form  id= "reservationForm" method="post">
+        <h1 style="margin-left: 15%; margin-top: 3%; font-family: Dancing Script;font-size: 70px;padding-bottom: 3%; color:#5F806E;">Book your table now and enjoy!</h1>
         <div class="form">
           <div class="groupform">
        <label for="name ">First name: &nbsp;</label>
@@ -59,10 +59,32 @@
        <label for="name " >Nb of guests:</label>
        <input type="text" id="number" name="number" required>
        </div>
-       <button style="background-color:#e2dcb3; color: #5F806E; border: dashed; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;  margin-top: 10%; margin-left: 600px;" type="submit">Reserve Now</button>
-    </form>
-  </div>
+       <button  onclick ="myfunction()" style="background-color:#e2dcb3; color: #5F806E; border: dashed; font-size: 30px; cursor: pointer; border-radius: 10px; width: 50%;  margin-top: 10%; margin-left: 600px;" type="button">Reserve Now</button>
     
+        </div>
+    </form>
+
+    <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 50px;">
+      <h1 style="font-family: Dancing Script; font-size: 60px; color: #5F806E;">
+          🎉 Reservation Confirmed! 
+      </h1>
+      <p style="font-family: Playfair Display; font-size: 30px; color: #333;">
+          Thank you for choosing us. We can't wait to serve you! 
+      </p>
+      <p style="font-family: Playfair Display; font-size: 30px; color: #333;">
+          See you soon, and enjoy your time with us. 💐
+      </p>
+  </div>
+
+<script>
+    function myfunction() {
+        // Hide the form
+        document.getElementById("reservationForm").style.display = "none";
+        
+        // Show the thank-you message
+        document.getElementById("thankYouMessage").style.display = "block";
+    }
+</script>
 </body>
 
 <footer style="background-color: #5F806E; color: #F8F3D4; padding: 20px; text-align: center; font-family: Arial, sans-serif; margin-top: 2%;">
