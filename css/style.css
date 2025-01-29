@@ -181,7 +181,9 @@ letter-spacing: 2px;
     display: flex;
     align-items: center;
     margin-right: 30px;
-    text-align: center;}
+    text-align: center;
+    padding-right: 150px;
+  }
   
 
   body.page2{
