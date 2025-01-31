@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="images/logo.png" type="image/png">
     <link href="./css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Mamma Mia |Italian food and wine</title>
     <div class="header">
@@ -69,29 +70,8 @@ at Mamma Mia today!
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script>
-    const pastaImage = document.getElementById("pasta");
-
-    const hoverImageSrc = "images/laradrink2.jpeg";
-    const originalImageSrc = "images/pasta.jpg" ;
-
-    pastaImage.addEventListener("mouseover", () => {
-      pastaImage.style.opacity = 0; 
-      setTimeout(() => {
-        pastaImage.src = hoverImageSrc; 
-        pastaImage.style.opacity = 1;
-      }, 250);
-    });
-
-    pastaImage.addEventListener("mouseout", () => {
-      pastaImage.style.opacity = 0; 
-      setTimeout(() => {
-        pastaImage.src = originalImageSrc; 
-        pastaImage.style.opacity = 1; 
-      }, 250);
-    });
-
-</script>
+      
+  
 </body>
 <footer style="background-color: #5F806E; color: #F8F3D4; padding: 20px; text-align: center; font-family: Arial, sans-serif; margin-top: 2%;">
   <div>
@@ -103,9 +83,12 @@ at Mamma Mia today!
   <hr style="border-top: 1px solid #F8F3D4; margin: 20px 0;">
   <div>
     <p>Follow us:</p>
-    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Facebook</a>
-    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Instagram</a>
-    <a href="#" style="color: #F8F3D4; margin: 0 10px;">Twitter</a>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;"> <img src="images/facebook.jpeg "class="social-icon">
+      Facebook</a>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;"> <img src="images/insta.jpeg" class="social-icon"
+    >Instagram</a>
+    <a href="#" style="color: #F8F3D4; margin: 0 10px;"><img src="images/twitter-new-2023-x-logo-white-background-vector_1017-45422.jpg"class="social-icon"
+    >Twitter</a>
   </div>
   <p style="margin-top: 20px;">Copyright © 1990 Mamma Mia. All rights reserved.</p>
 </footer>

@@ -218,4 +218,11 @@ padding-left: 15px;
 display: flex;            
 align-items: center;      
 margin-bottom: 20px;
-margin-top: 2%;}
+margin-top: 2%;
+
+}
+.social-icon{
+  width: 17px;
+  height: 17px;
+  margin-right:4px;
+}
