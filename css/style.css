@@ -225,4 +225,11 @@ margin-top: 2%;
   width: 17px;
   height: 17px;
   margin-right:4px;
+  border-radius: 10px;
+}
+.team{
+display: flex;
+flex-direction: row;
+margin-left: 5%;
+
 }
