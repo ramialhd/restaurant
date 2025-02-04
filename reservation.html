@@ -37,33 +37,33 @@
     <div class="outside">
         <img src="images/inside.jpg" style=" width: 80% ; margin-left: 150px; height: 600px;">
     </div>
-    <form  id= "reservationForm" method="post">
-        <h1 style="margin-left: 15%; margin-top: 3%; font-family: Dancing Script;font-size: 70px;padding-bottom: 3%; color:#5F806E;">Book your table now and enjoy!</h1>
-        <div class="form">
+    <form id="reservationForm" name="reservation" method="post">
+      <h1 style="margin-left: 15%; margin-top: 3%; font-family: Dancing Script; font-size: 70px; padding-bottom: 3%; color: #5F806E;">Book your table now and enjoy!</h1>
+      <div class="form">
           <div class="groupform">
-       <label for="name ">First name: &nbsp;</label>
-       <input type="text" id="name" name="name" required>
-       </div>
-       <div class="groupform">
-       <label for="name ">Last name:&nbsp;</label>
-       <input type="text" id="name" name="name" required>
-       </div>
-       <div class="groupform">
-       <label for="date">Date:&nbsp;</label>
-       <input type="date" id="date" name="date" required>
+              <label for="name">First name: &nbsp;</label>
+              <input type="text" id="name" name="firstname" required>
           </div>
-       <div class="groupform">
-       <label for="time">Time:&nbsp;</label>
-       <input type="time" id="time" name="time" required>
-       </div>
-       <div class="groupform">
-       <label for="name " >Nb of guests:</label>
-       <input type="text" id="number" name="number" required>
-       </div>
-       <button  onclick ="myfunction()" style="background-color:#e2dcb3; color: #5F806E; border: dashed; font-size: 40px; cursor: pointer; border-radius: 10px; width: 70%;  margin-top: 10%; margin-left: 600px;" type="button">Reserve Now</button>
-    
-        </div>
-    </form>
+          <div class="groupform">
+              <label for="name">Last name: &nbsp;</label>
+              <input type="text" id="name" name="lastname" required> <!-- Changed name to "lastname" -->
+          </div>
+          <div class="groupform">
+              <label for="date">Date: &nbsp;</label>
+              <input type="date" id="date" name="date" required>
+          </div>
+          <div class="groupform">
+              <label for="time">Time: &nbsp;</label>
+              <input type="time" id="time" name="time" required>
+          </div>
+          <div class="groupform">
+              <label for="name">Nb of guests:</label>
+              <input type="text" id="number" name="number" required>
+          </div>
+          <button onclick="myfunction()" style="background-color:#e2dcb3; color: #5F806E; border: dashed; font-size: 40px; cursor: pointer; border-radius: 10px; width: 70%; margin-top: 10%; margin-left: 600px;" type="button">Reserve Now</button>
+      </div>
+  </form>
+  
 
     <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 50px;">
       <h1 style="font-family: Dancing Script; font-size: 70px; color: #5F806E;">
