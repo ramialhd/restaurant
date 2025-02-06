@@ -21,4 +21,15 @@
         document.getElementById("thankYouMessage").style.display = "block";
         return true;
     }
+    function showchefinfo(event,chefid) {
+    event.preventDefault();
+        var infodiv = document.getElementById(chefid);
+        if (infodiv.style.display === "none" || infodiv.style.display === "") {
+            infodiv.style.display = "block";
+        } else {
+            infodiv.style.display = "none";
+        }
+    }
+    
+    
     

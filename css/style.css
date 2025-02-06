@@ -228,3 +228,9 @@ gap: 80px;
   font-size: 48px;
   font-family: Dancing Script;
 }
+.chefinfo{
+  display: none;
+}
+.one{display: flex;
+flex-direction: column;
+}
