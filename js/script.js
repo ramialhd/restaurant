@@ -21,6 +21,7 @@
         document.getElementById("thankYouMessage").style.display = "block";
         return true;
     }
+<<<<<<< HEAD
     function showChefInfo(chefId) {
         var infoDiv = document.getElementById(chefId);
         if (infoDiv.style.display === "none" || infoDiv.style.display === "") {
@@ -30,4 +31,17 @@
         }
     }
     
+=======
+    function showchefinfo(event,chefid) {
+    event.preventDefault();
+        var infodiv = document.getElementById(chefid);
+        if (infodiv.style.display === "none" || infodiv.style.display === "") {
+            infodiv.style.display = "block";
+        } else {
+            infodiv.style.display = "none";
+        }
+    }
+    
+    
+>>>>>>> 23167b7d68e66e04d35f13b0dc40bf79fba0e7a6
     
