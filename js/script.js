@@ -20,18 +20,8 @@
         // Show the thank-you message
         document.getElementById("thankYouMessage").style.display = "block";
         return true;
-    }
-<<<<<<< HEAD
-    function showChefInfo(chefId) {
-        var infoDiv = document.getElementById(chefId);
-        if (infoDiv.style.display === "none" || infoDiv.style.display === "") {
-            infoDiv.style.display = "block";
-        } else {
-            infoDiv.style.display = "none";
-        }
-    }
-    
-=======
+
+      }
     function showchefinfo(event,chefid) {
     event.preventDefault();
         var infodiv = document.getElementById(chefid);
@@ -43,5 +33,4 @@
     }
     
     
->>>>>>> 23167b7d68e66e04d35f13b0dc40bf79fba0e7a6
     
