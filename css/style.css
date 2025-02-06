@@ -171,10 +171,9 @@ text-align: center;
 .container4
 {
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  margin-right: 2%;
+ 
+
+ 
 }
 
 body.page2
@@ -221,8 +220,11 @@ margin-top: 2%;
 .team{
 display: flex;
 flex-direction: row;
-margin-left: 9%;
-width: 320px;
+margin-left: 4%;
+width: 280px;
 gap: 80px;
-
+}
+.desc{
+  font-size: 48px;
+  font-family: Dancing Script;
 }
