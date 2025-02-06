@@ -21,4 +21,13 @@
         document.getElementById("thankYouMessage").style.display = "block";
         return true;
     }
+    function showChefInfo(chefId) {
+        var infoDiv = document.getElementById(chefId);
+        if (infoDiv.style.display === "none" || infoDiv.style.display === "") {
+            infoDiv.style.display = "block";
+        } else {
+            infoDiv.style.display = "none";
+        }
+    }
+    
     
